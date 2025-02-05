@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>NoviceNest</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-light p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-start border-end px-3"
+                    >
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+6560118922</small>
+                    </div>
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-end px-3"
+                    >
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>novice_nest@gmail.com</small>
+                    </div>
+                    <div
+                        class="h-100 d-inline-flex align-items-center border-end px-3"
+                    >
+                        <small class="far fa-clock me-2"></small>
+                        <small>Mon - Fri : 09 AM - 09 PM</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <a
+                            class="btn btn-square border-end border-start"
+                            href="https://www.facebook.com/"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://x.com/"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://ua.linkedin.com/"
+                            ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                        <a
+                            class="btn btn-square border-end"
+                            href="https://www.instagram.com/"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h1 class="m-0">NoviceNest</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-3 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <div class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Pages</a
+                        >
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="appointment.html" class="dropdown-item"
+                                >Why Partner With Us</a
+                            >
+                            <a href="service.html" class="dropdown-item"
+                                >Our Services</a
+                            >
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Contact Us</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-lg-6">
+                                        <h5
+                                            class="text-light text-uppercase mb-3 animated slideInDown"
+                                        >
+                                            Start Your Investment Journey Today
+                                        </h5>
+                                        <h1
+                                            class="display-2 text-light mb-3 animated slideInDown"
+                                        >
+                                            Build Your Future with Smart
+                                            Investments
+                                        </h1>
+                                        <p>
+                                            Begin your investment journey with a
+                                            solid understanding of the basics.
+                                            Whether you're looking to invest in
+                                            stocks, bonds, or mutual funds, we
+                                            provide easy-to-follow advice and
+                                            resources for beginners. Learn how
+                                            to build a portfolio that suits your
+                                            financial goals and risk tolerance,
+                                            and start making informed investment
+                                            decisions today.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Our Approach Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/approach.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <div
+                                class="border-start border-5 border-primary ps-4 mb-5"
+                            >
+                                <h6 class="text-body text-uppercase mb-2">
+                                    Our Approach
+                                </h6>
+                                <h1 class="display-6 mb-0">
+                                    Simplified Investment Strategies for
+                                    Beginners
+                                </h1>
+                            </div>
+                            <p>
+                                We understand that starting as a beginner in the
+                                world of investing can be overwhelming. Our
+                                approach is all about simplifying the process,
+                                providing you with clear and actionable steps.
+                                We aim to make investing approachable for
+                                beginners by offering educational resources and
+                                expert advice to help you make confident
+                                decisions from day one.
+                            </p>
+                            <p class="mb-4">
+                                Our services are designed to support you
+                                throughout your investment journey. Whether
+                                you're investing in stocks, ETFs, or other
+                                financial products, our goal is to equip you
+                                with the knowledge you need to build a
+                                successful portfolio that aligns with your
+                                long-term goals. We focus on giving you the
+                                tools to make informed choices and guide you
+                                through the complexities of the market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Approach End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid my-5 p-0">
+            <div class="row g-0">
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-1.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">01</h1>
+                            <h4 class="text-white mb-3">
+                                Easy Investment Strategies for Beginners
+                            </h4>
+                            <p class="text-white">
+                                Learn the basics of investing with
+                                straightforward strategies that help you start
+                                small and build your portfolio over time.
+                                Whether you're new to stocks, bonds, or mutual
+                                funds, our tips will guide you in making
+                                informed decisions and setting the foundation
+                                for long-term growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-2.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">02</h1>
+                            <h4 class="text-white mb-3">
+                                Diversification Made Simple
+                            </h4>
+                            <p class="text-white">
+                                Discover how diversifying your investments can
+                                reduce risks and enhance potential returns.
+                                Learn how to spread your investments across
+                                different asset classes to build a balanced and
+                                resilient portfolio that suits your risk
+                                tolerance and financial goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-3.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">03</h1>
+                            <h4 class="text-white mb-3">
+                                Understanding Risk vs. Reward
+                            </h4>
+                            <p class="text-white">
+                                A key principle of investing is understanding
+                                the balance between risk and reward. We guide
+                                you on how to assess different investment
+                                opportunities and find the right level of risk
+                                for your personal financial situation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="position-relative">
+                        <img
+                            class="img-fluid w-100"
+                            src="img/fact-4.jpg"
+                            alt=""
+                        />
+                        <div class="facts-overlay">
+                            <h1 class="display-1">04</h1>
+                            <h4 class="text-white mb-3">
+                                Start Investing Today with Small Amounts
+                            </h4>
+                            <p class="text-white">
+                                Investing doesn’t require large sums of money.
+                                With the right strategies, you can start small
+                                and gradually grow your investments. Learn how
+                                to begin with a modest budget and gradually
+                                build your portfolio over time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item bg-light overflow-hidden h-100"
+                        >
+                            <div
+                                class="service-text position-relative text-center h-100 p-4"
+                            >
+                                <h5 class="mb-3">
+                                    Tailored Investment Strategies for Beginners
+                                </h5>
+                                <p>
+                                    Our personalized approach helps beginners
+                                    navigate the world of investing. We offer
+                                    tailored advice that simplifies the process
+                                    and ensures you’re building a strategy that
+                                    aligns with your goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light overflow-hidden h-100"
+                        >
+                            <div
+                                class="service-text position-relative text-center h-100 p-4"
+                            >
+                                <h5 class="mb-3">
+                                    Beginner-Friendly Educational Resources
+                                </h5>
+                                <p>
+                                    We provide easy-to-understand resources to
+                                    help beginners learn about investing, from
+                                    the basics to more advanced concepts. Our
+                                    goal is to make investing accessible to
+                                    everyone, no matter their starting point.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="border-start border-5 border-primary ps-4 mb-5"
+                        >
+                            <h6 class="text-body text-uppercase mb-2">
+                                Testimonial
+                            </h6>
+                            <h1 class="display-6 mb-0">
+                                What Our Clients Say About Investing!
+                            </h1>
+                        </div>
+                        <p class="mb-4">
+                            See how our investment guidance has helped beginners
+                            make smarter investment decisions and build their
+                            portfolios from the ground up.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i
+                                        class="fa fa-users fa-2x text-primary flex-shrink-0"
+                                    ></i>
+                                    <h1 class="ms-3 mb-0">500+</h1>
+                                </div>
+                                <h5 class="mb-0">
+                                    Investing Beginners Trained
+                                </h5>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i
+                                        class="fa fa-check fa-2x text-primary flex-shrink-0"
+                                    ></i>
+                                    <h1 class="ms-3 mb-0">400+</h1>
+                                </div>
+                                <h5 class="mb-0">
+                                    Successful Investments Started
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="testimonial-item">
+                                <img
+                                    class="img-fluid mb-4"
+                                    src="img/testimonial-1.jpg"
+                                    alt=""
+                                />
+                                <p class="fs-5">
+                                    Working with NoviceNest transformed my
+                                    approach to investing. Their step-by-step
+                                    guide helped me start my first investment
+                                    with confidence and clarity.
+                                </p>
+                                <div
+                                    class="bg-primary mb-3"
+                                    style="width: 60px; height: 5px"
+                                ></div>
+                                <h5>Emily Thompson</h5>
+                            </div>
+                            <div class="testimonial-item">
+                                <img
+                                    class="img-fluid mb-4"
+                                    src="img/testimonial-2.jpg"
+                                    alt=""
+                                />
+                                <p class="fs-5">
+                                    I was a complete beginner, and thanks to the
+                                    insights and tools from NoviceNest, I made
+                                    my first investment with a clear
+                                    understanding of the process and risks.
+                                </p>
+                                <div
+                                    class="bg-primary mb-3"
+                                    style="width: 60px; height: 5px"
+                                ></div>
+                                <h5>David Morgan</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-6">
+                        <h1 class="text-white mb-4">NoviceNest</h1>
+                        <p>
+                            At NoviceNest, we offer specialized solutions to
+                            help beginners succeed in investing. With years of
+                            experience, we provide the resources, support, and
+                            strategies necessary for you to build and grow your
+                            investment portfolio.
+                        </p>
+                        <div class="d-flex pt-2">
+                            <a
+                                class="btn btn-square border-end border-start"
+                                href="https://www.facebook.com/"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://x.com/"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://ua.linkedin.com/"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a
+                                class="btn btn-square border-end"
+                                href="https://www.instagram.com/"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h4 class="text-light mb-4">Contact Information</h4>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>12 Richmond
+                            Rd, London CR7 7QB, UK
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+6560118922</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >novice_nest@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <h4 class="text-light mb-4">Get in Touch</h4>
+                        <p>
+                            We are committed to offering dedicated support to
+                            beginners in investing. Reach out to us for any
+                            questions or guidance on getting started with your
+                            investments.
+                        </p>
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <h4 class="text-light mb-4">Investing Risks</h4>
+                        <p>
+                            Investing, especially for beginners, involves a
+                            certain level of risk. It is important to understand
+                            that market fluctuations, economic factors, and even
+                            unexpected events can impact investments. Here's
+                            what you should know:
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Market Volatility:</strong> The value of
+                                investments can go up and down, which means that
+                                potential gains are often accompanied by risks
+                                of losses.
+                            </li>
+                            <li>
+                                <strong>Risk of Loss:</strong> There's always a
+                                chance that your investment might lose value,
+                                which is especially common in high-risk assets
+                                such as stocks.
+                            </li>
+                            <li>
+                                <strong>Liquidity Risk:</strong> Some
+                                investments may be hard to sell quickly without
+                                losing value, so it's important to be prepared
+                                for long-term commitments.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <h4 class="text-light mb-4">Newsletter</h4>
+                        <p>
+                            Stay up-to-date with the latest news, trends, and
+                            opportunities for beginner investors. Sign up to
+                            receive insights and updates that can help you
+                            succeed in your investment journey.
+                        </p>
+                        <form action="thanks.html" method="GET">
+                            <div
+                                class="position-relative"
+                                style="max-width: 400px"
+                            >
+                                <input
+                                    class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Your email"
+                                    required
+                                />
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                >
+                                    SignUp
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to enhance your experience as a
+                    beginner investor. Our goal is to provide you with relevant
+                    information and tools to help you start investing
+                    effectively.
+                    <a href="privacy-policy.html">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
